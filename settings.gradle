@@ -22,7 +22,7 @@ buildCache {
         enabled = !isCiServer
     }
     remote(HttpBuildCache) {
-        url = 'https://bob-2019.int.sernet.de:8090/cache/'
+        url = 'https://mybuildcache.example:8090/cache/'
         push = isCiServer
         allowUntrustedServer = isCiServer
     }
